@@ -1,0 +1,26 @@
+//Java BigNumber BigInteger
+
+
+import java.io.*;
+importjava.util.*;
+importjava.text.*;
+importjava.math.*;
+importjava.util.regex.*;
+
+public class Solution {
+
+	public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc = new Scanner(System.in);
+		while(sc.hasNext()){
+			BigInteger a = new BigInteger(sc.next());
+			BigInteger b = new BigInteger(sc.next());
+
+			BigInteger c = a.add(b);
+			BigInteger d = a.multiply(b);
+
+		System.out.println(c);
+		System.out.println(d);
+		}
+    }
+}
